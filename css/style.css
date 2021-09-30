@@ -5,6 +5,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+main{
+  position: absolute;
+}
+
 .container{
   padding-top: 90px;
   display: flex;
@@ -31,4 +35,29 @@
   left: 0px;
   padding: 3px;
   background-color: rgba(0, 0, 0, 0.40);
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100px;
+  background-color: #222222;
+  position: fixed;
+  bottom: 0;
+}
+
+.left-nav{
+  width: 15%;
+  background-color: blueviolet;
+}
+
+.center-nav{
+  width: 40%;
+  background-color: chartreuse;
+}
+
+.right-nav{
+  width: 10%;
+  background-color: cyan;
 }
