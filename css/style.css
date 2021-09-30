@@ -9,13 +9,38 @@ main{
   position: absolute;
 }
 
+.view{
+  color: white;
+  background-color: black;
+  padding: 8px 8px 0 0;
+  display: flex;
+  justify-content: end;
+}
+
+.fa-expand-arrows-alt{
+  padding: 3px;
+  background-color: #4A4A4A;
+}
+
+.view-settings, .fa-expand-arrows-alt{
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-settings{
+  margin-right: 10px;
+  padding: 2px 3px;
+  background-color: #4A4A4A;
+}
+
 .container{
-  padding-top: 90px;
+  padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100vw;
   background-color: black;
+  overflow: scroll;
 }
 
 .cam{
