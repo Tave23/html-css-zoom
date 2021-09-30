@@ -48,8 +48,25 @@ main{
 }
 
 .left-nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 15%;
-  background-color: blueviolet;
+  font-size: 15px;
+  color: white;
+}
+
+.left-nav span i{
+  font-size: 30px;
+}
+
+.left-nav span{
+  cursor: pointer;
+}
+
+.left-nav i{
+  font-size: 10px;
+  cursor: pointer;
 }
 
 .center-nav{
