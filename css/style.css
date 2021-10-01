@@ -5,8 +5,16 @@
   font-family: 'Lato', sans-serif;
 }
 
+header{
+  height: 40px;
+  background-color: black;
+}
+
 main{
   position: absolute;
+  overflow: auto;
+  width: 100vw;
+  height: calc(100vh - 120px);
 }
 
 .view{
@@ -34,13 +42,11 @@ main{
 }
 
 .container{
-  padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100vw;
   background-color: black;
-  overflow: scroll;
 }
 
 .cam{
@@ -66,6 +72,7 @@ main{
   display: flex;
   justify-content: space-between;
   width: 100vw;
+  height: 80px;
   background-color: #222222;
   position: fixed;
   bottom: 0;
